@@ -2,22 +2,31 @@
 	"development": {
 		"username": "postgres",
 		"password": "postgres",
-		"database": "project",
+		"database": "postgres",
 		"host": "127.0.0.1",
-		"dialect": "postgres"
+		"dialect": "postgres",
+		"define": {
+			"timestamps": false
+		}
 	},
 	"test": {
 		"username": "postgres",
 		"password": "postgres",
-		"database": "project",
+		"database": "postgres",
 		"host": "127.0.0.1",
-		"dialect": "postgres"
+		"dialect": "postgres",
+		"define": {
+			"timestamps": false
+		}
 	},
 	"production": {
 		"username": "postgres",
 		"password": "postgres",
-		"database": "project",
+		"database": "postgres",
 		"host": "127.0.0.1",
-		"dialect": "postgres"
+		"dialect": "postgres",
+		"define": {
+			"timestamps": false
+		}
 	}
 }
